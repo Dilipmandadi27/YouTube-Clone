@@ -1,0 +1,97 @@
+.navbar{
+
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 8px 2%;
+    box-shadow: 0 0 10px rgba(185, 180, 180, 0.2);
+    position: sticky;
+    top: 0;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.logo-area{
+    display: flex;
+    align-items: center;
+}
+
+.logo-area button{
+    width: 30px;
+    height: 30px;
+}
+
+.logo img {
+ width: 40px;
+ border-radius: 7px;
+
+}
+
+
+.logo span{
+    font-size:25px;
+    font-weight: 400;
+    color: white;
+    margin-left: 5px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.mid-section{
+    display: flex;
+    justify-content: center;
+    margin: 5px auto;
+    gap: 22px;
+}
+
+.search-area{
+    display: flex;
+    border: 1px solid rgb(34,34,34) ; 
+    border-radius: 30px;
+    background:  #5a5a5a ;
+    
+}
+
+.search-area input{
+    width: 580px;
+    background-color: black;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding-left: 20px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+
+}
+
+.search-area img{
+    padding: 10px 18px;
+    width: 55px;
+    height: 40px;
+}
+
+.search-area input::placeholder{
+    font-size:16px;
+}
+
+
+.mic img{
+   width: 40px;
+   height: 40px;
+   padding: 10px;
+   border-radius: 50%;
+   background-color: #5a5a5a;
+}
+
+.user-area img{
+    width: 60px;
+    padding-left: 20px;
+
+}

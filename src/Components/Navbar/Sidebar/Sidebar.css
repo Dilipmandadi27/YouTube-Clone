@@ -1,0 +1,39 @@
+.sidebar{
+    background-color:rgb(15,15,15);
+    color: white;
+    width: 15%;
+    min-height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    position: sticky;
+    overflow-y: hidden;
+    box-shadow: 0 0 10px rgba(185, 180, 180, 0.2);
+    padding: 8px;
+}
+
+.sidebar .sidebar-container{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    padding: 10px;
+}
+
+.sidebar-container img{
+ width: 20px;
+ margin-right: 5px;
+ color: white
+}
+
+.sidebar-container p{
+font-size: 15px;
+font-weight: 400;
+margin-left: 20px;
+}
+
+hr, h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 85%;
+    margin-left: 10px;
+}
