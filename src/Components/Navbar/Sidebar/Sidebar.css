@@ -5,11 +5,13 @@
     min-height: 100vh;
     top: 0;
     left: 0;
+    padding-bottom: 0;
     z-index: 10;
     position: sticky;
-    overflow-y: hidden;
     box-shadow: 0 0 10px rgba(185, 180, 180, 0.2);
-    padding: 8px;
+    padding-top: 28px;
+
+
 }
 
 .sidebar .sidebar-container{
@@ -17,6 +19,7 @@
     align-items: center;
     margin-left: 15px;
     padding: 10px;
+
 }
 
 .sidebar-container img{
